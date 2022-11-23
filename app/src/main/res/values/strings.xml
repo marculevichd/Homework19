@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Homework19</string>
+    <string name="enter_login">Enter login!</string>
+    <string name="literally_each_profile_in_tinder">Literally each profile in Tinder</string>
+    <string name="confirm">Confirm</string>
+    <string name="agree">Agree</string>
+    <string name="disagree">Disagree</string>
+    <string name="typical_description">typical description</string>
+    <string name="save_login_and_password">Save login and password</string>
+    <string name="enter_password">Enter password!</string>
+    <string name="tnx_vote">Thanks for vote</string>
+    <string name="choose">Please choose one radio button and click again</string>
+    <string name="must_filled">Both fields must be filled</string>
+</resources>

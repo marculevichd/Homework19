@@ -20,12 +20,11 @@ class MainActivity : AppCompatActivity() {
         val description = findViewById<TextView>(R.id.description)
         val btn_save = findViewById<Button>(R.id.btn_save)
         val login_et = findViewById<EditText>(R.id.login_et)
-        val password_et = findViewById<EditText>(R.id.password_et)
 
 
 
         btn_save.setOnClickListener{
-            if (login_et.text.toString().isEmpty()||password_et.text.toString().isEmpty()) {
+            if (login_et.text.toString().isEmpty()) {
                 Toast.makeText(this, getString(R.string.must_filled), Toast.LENGTH_SHORT).show()
             } else description.setText("inst: " + login_et.text.toString())
         }
